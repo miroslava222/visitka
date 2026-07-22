@@ -4,8 +4,11 @@ body {
     background-color: #f5f5f5;
     font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
+  margin: 0;
+  background: linear-gradient(135deg, #bbceff 0%, #9a87eb 100%);
+    background-attachment: fixed; /* Фон остаётся неподвижным при скролле */
 }
 
 h1 {
@@ -15,3 +18,12 @@ h1 {
   text-align: center;
 }
 
+/* Обертка для вашего контента */
+.container {
+    max-width: 900px; /* Ширина центральной колонки */
+    margin: 40px auto; /* Центрируем по горизонтали и делаем отступ сверху/снизу */
+    padding: 30px;
+    background-color: #ffffff; /* Цвет блока с текстом */
+    border-radius: 16px; /* Закругления углов */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Мягкая тень */
+}
