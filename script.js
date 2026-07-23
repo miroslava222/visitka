@@ -25,16 +25,31 @@ cat.onclick = function () {
     }
 
    if (click == 3) {
-        text.src = "проснулся.png";
+        text.src = "проснулся2.jpg";
         fon.src = "";
         cat.src = "кот_довольный.png";
        }
 
-   // if (click == 4) {
-     //   text.src = "разбуди.png";
-    //    fon.src = "";
-   //     click = 0;
-   // }
+   if (click == 4) {
+        text.src = "голодный.jpg";
+        fon.src = "";
+        cat.src = "кота_покормили.png";
+    }
+    if (click == 5) {
+        text.src = "хватит.jpg";
+        fon.src = "";
+        cat.src = "ожирение1.png";
+    }
+    if (click == 6) {
+        text.src = "нееет.jpg";
+        fon.src = "";
+        cat.src = "ожирение 2.png";
+    }
+    if (click == 7) {
+        text.src = "";
+        fon.src = "";
+        cat.src = "кот_спит.png";
+    }
 }
 let currentQuestion = 1;
 let score = 0;
