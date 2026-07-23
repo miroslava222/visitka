@@ -14,50 +14,54 @@
         <h1 class="center">ВИЗИТКА</h1>
         <div class="facti">
             <h3>ФАКТЫ ОБО МНЕ</h3>
-             <div class="card">
-                <div class="card-inner">
-                    <div class="card-front">
-                    ЛЮБИМЫЕ КНИГИ
-                    </div>
-
+    <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                ЛЮБИМЫЕ КНИГИ
+                </div>
                 <div class="card-back">
-                <ul>
-                    <li>Первый пункт</li>
-                    <li>Второй пункт</li>
-                    <li>Третий пункт</li>
-                </ul>
+                    <ul class="shrift">
+                        <li class="govno">Гарри Поттер</li>
+                        <li class="govno">1984</li>
+                        <li class="govno">Гордость и предубеждение</li>
+                        <li class="govno">Тревожные люди</li>
+                    </ul>
                 </div>
             </div>
-            <div class="card">
+            
                 <div class="card-inner">
                     <div class="card-front">
                     ЛЮБИМЫЕ ФИЛЬМЫ/СЕРИАЛЫ
                     </div>
 
                 <div class="card-back">
-                <ul>
-                    <li>Первый пункт</li>
-                    <li>Второй пункт</li>
-                    <li>Третий пункт</li>
-                </ul>
+                    <ul class="shrift">
+                        <li class="govno">Сверхъестественное</li>
+                        <li class="govno">Шерлок</li>
+                        <li class="govno">Сводишь с ума</li>
+                        <li class="govno">Интерны</li>
+                    </ul>
                 </div>
                 </div>
-            </div>
-             <div class="card">
+           
+             
                 <div class="card-inner">
                     <div class="card-front">
                     ХОББИ
                     </div>
 
                 <div class="card-back">
-                <ul>
-                    <li>Первый пункт</li>
-                    <li>Второй пункт</li>
-                    <li>Третий пункт</li>
+                <ul class="shrift">
+                    <li class="govno">Рисование</li>
+                    <li class="govno">Вязание</li>
+                    <li class="govno">Чтение</li>
+                    <li class="govno">Бисероплетение</li>
+                    <li class="govno">Точные науки</li>
                 </ul>
                 </div>
-                </div>
+                
             </div>
+    </div>
     </div>
             <div class="nadpisi">
                 <img id="text1" src="разбуди.png" alt="Котик_спит" class="text">
@@ -66,6 +70,202 @@
                         <img id="fon" src="" class="text1"> 
                     </div>
              </div>
+             <!--здесь начинается тест-->
+         <div class="start1">    
+             <div id="start">
+            <h3>ТЕСТ</h3>
+                <div>Насколько хорошо ты меня знаешь?</div>
+            <button class="button" onclick="startQuiz()">
+            Начать
+            </button>
+            </div>
+
+            <div class="question" id="q1">
+
+            <h2>1. Какой мой любимый цвет?</h2>
+
+            <label class="label"><input type="radio" name="q1" value="1">Голубой</label>
+
+            <label class="label"><input type="radio" name="q1" value="0">Фиолетовый</label>
+
+            <label class="label"><input type="radio" name="q1" value="0">Коричневый</label>
+
+            <label class="label"><input type="radio" name="q1" value="0">Малиновый</label>
+                <button class="button" onclick="nextQuestion1()">
+                Далее
+                </button>
+
+            </div>
+            <div class="question" id="q2">
+
+            <h2>2. Какой комплимент мне приятнее услышать?</h2>
+
+            <label class="label"><input type="radio" name="q2" value="0">"Ты Красивая"</label>
+
+            <label class="label"><input type="radio" name="q2" value="0">"Ты талантливая"</label>
+
+            <label class="label"><input type="radio" name="q2" value="1">"Ты интересная"</label>
+
+            <label class="label"><input type="radio" name="q2" value="0">"Ты добрая"</label>
+                <button class="button" onclick="nextQuestion2()">
+                Далее
+                </button>
+
+            </div>
+            <div class="question" id="q3">
+
+            <h2>3. Что меня быстрее всего раздражает?</h2>
+
+            <label class="label"><input type="radio" name="q3" value="0">Когда всё идёт не по плану</label>
+
+            <label class="label"><input type="radio" name="q3" value="1">Когда меня не слышат</label>
+
+            <label class="label"><input type="radio" name="q3" value="0">Когда люди безответственные</label>
+
+            <label class="label"><input type="radio" name="q3" value="0">Когда слишком шумно</label>
+
+                <button class="button" onclick="nextQuestion3()">
+                Далее
+                </button>
+
+            </div>
+            <div class="question" id="q4">
+
+            <h2>4. Какой мой любимый жанр книг?</h2>
+
+            <label class="label"><input type="radio" name="q4" value="0">Фэнтези</label>
+
+            <label class="label"><input type="radio" name="q4" value="0">Романтика</label>
+
+            <label class="label"><input type="radio" name="q4" value="0">Научная фантастика</label>
+
+            <label class="label"><input type="radio" name="q4" value="1">Детективы</label>
+
+                <button class="button" onclick="nextQuestion4()">
+                Далее
+                </button>
+
+            </div>
+            <div class="question" id="q5">
+
+            <h2>5. Что я больше люблю?</h2>
+
+            <label class="label"><input type="radio" name="q5" value="1">Море</label>
+
+            <label class="label"><input type="radio" name="q5" value="0">Горы</label>
+
+            <label class="label"><input type="radio" name="q5" value="0">Лес</label>
+
+            <label class="label"><input type="radio" name="q5" value="0">Степь</label>
+
+                <button class="button" onclick="nextQuestion5()">
+                Далее
+                </button>
+
+            </div>
+            <div class="question" id="q6">
+
+            <h2>6. Какой мой любимый режим сна?</h2>
+
+            <label class="label"><input type="radio" name="q6" value="0">02:00-12:30</label>
+
+            <label class="label"><input type="radio" name="q6" value="0">23:30-11:00</label>
+
+            <label class="label"><input type="radio" name="q6" value="1">00:00-09:30</label>
+
+            <label class="label"><input type="radio" name="q6" value="0">23:00-08:00</label>
+
+                <button class="button" onclick="nextQuestion6()">
+                Далее
+                </button>
+
+            </div>
+            <div class="question" id="q7">
+
+            <h2>7. Какой мой любимый напиток?</h2>
+
+            <label class="label"><input type="radio" name="q7" value="1">Имбирный чай</label>
+
+            <label class="label"><input type="radio" name="q7" value="0">Медовый раф</label>
+
+            <label class="label"><input type="radio" name="q7" value="0">Персиковый чай</label>
+
+            <label class="label"><input type="radio" name="q7" value="0">Клубничный лимонад</label>
+
+                <button class="button" onclick="nextQuestion7()">
+                Далее
+                </button>
+
+            </div>
+            <div class="question" id="q8">
+
+            <h2>8. Какое у меня любимое время года?</h2>
+
+            <label class="label"><input type="radio" name="q8" value="0">Лето</label>
+
+            <label class="label"><input type="radio" name="q8" value="0">Зима</label>
+
+            <label class="label"><input type="radio" name="q8" value="0">Осень</label>
+
+            <label class="label"><input type="radio" name="q8" value="1">Весна</label>
+
+                <button class="button" onclick="nextQuestion8()">
+                Далее
+                </button>
+
+            </div>
+            <div class="question" id="q9">
+
+            <h2>9. Мой любимый соус?</h2>
+
+            <label class="label"><input type="radio" name="q9" value="0">Кетчуп</label>
+
+            <label class="label"><input type="radio" name="q9" value="1">Сырный</label>
+
+            <label class="label"><input type="radio" name="q9" value="0">Майонез</label>
+
+            <label class="label"><input type="radio" name="q9" value="0">Соевый</label>
+
+                <button class="button" onclick="nextQuestion9()">
+                Далее
+                </button>
+
+            </div>
+
+            <div class="question" id="q10">
+
+            <h2>10. Любимая порода собак?</h2>
+
+            <label class="label"><input type="radio" name="q10" value="1">Той-пудель</label>
+
+            <label class="label"><input type="radio" name="q10" value="0">Бордер-колли</label>
+
+            <label class="label"><input type="radio" name="q10" value="0">Кинг-чарльз-спаниель</label>
+            <label class="label"><input type="radio" name="q10" value="0">Доберман</label>
+
+            <button class="button" onclick="finishQuiz()">
+            Закончить
+            </button>
+
+            </div>
+
+            <div id="result"></div>
+
+            <script src="script.js"></script>
+        </div>
+             <!--здесь заканчивается тест-->
+        <div class="infa">
+            <p3 class="infa3">КОНТАКТНАЯ ИНФОРМАЦИЯ</p3>
+             <div class="infa2">
+                Мобильный телефон: +79787460511
+            </div>
+             <div class="infa2">
+                Telegram: @umirsss
+            </div>
+             <div class="infa2">
+                Электронная почта: miroslavaugrak@gmail.com 
+            </div>
+        </div>
 <script src="script.js"></script>
 </body>
 </html>

@@ -34,6 +34,7 @@ h1 {
     border: 2px solid #b4a0fd;
     border-radius: 15px;
     padding: 20px;
+    margin-bottom: 20px;
 }
  .nadpisi img {
     display: block;
@@ -42,22 +43,23 @@ h1 {
 .right {
      position: absolute;
     right: 750px;
-    top: 350px;
+    top: 830px;
 }
 .facti {
   text-align: center;
    border: 2px solid #b4a0fd;
     border-radius: 15px;
     padding: 20px;
-     text-align: center;
+    margin-bottom: 20px;
 } 
 .card {
-    width: 800px;
+    width: 860px;
     height: 350px;
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .card-inner {
     position: relative;
@@ -77,11 +79,11 @@ h1 {
     height: 100%;
 }
 .card-front {
-    background: pink;
+    background: rgb(161, 228, 255);
 }
 
 .card-back {
-    background: pink;
+    background: rgb(137, 202, 255);
 }
 .card:hover .card-inner {
     transform: rotateY(180deg);
@@ -103,4 +105,57 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 24px;
+}
+.shrift {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.govno {
+margin-bottom: 20px;
+}
+.infa {
+     text-align: center;
+    border: 2px solid #b4a0fd;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.infa3 {
+    border-bottom: 2px solid #b4a0fd;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.question {
+    display: none;
+}
+#result{
+    display:none;
+}
+.start1 {
+    text-align: center;
+   border: 2px solid #b4a0fd;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 15px 40px;
+    background-color: #b4a0fd;
+    color: white;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.label {
+     display: block;
+    margin: 0 auto;
+    margin-top: 10px;
 }
