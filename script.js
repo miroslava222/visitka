@@ -25,7 +25,7 @@ cat.onclick = function () {
     }
 
    if (click == 3) {
-        text.src = "проснулся2.jpg";
+        text.src = "1.jpg";
         fon.src = "";
         cat.src = "кот_довольный.png";
        }
@@ -36,7 +36,7 @@ cat.onclick = function () {
         cat.src = "кота_покормили.png";
     }
     if (click == 5) {
-        text.src = "хватит.jpg";
+        text.src = "2.jpg";
         fon.src = "";
         cat.src = "ожирение1.png";
     }
